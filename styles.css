@@ -9,9 +9,24 @@ body{
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-color: hsl(217, 54%, 11%);
 }
 .container{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 4rem;
+}
+.part1{
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
 }
