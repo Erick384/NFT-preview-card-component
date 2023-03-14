@@ -10,14 +10,17 @@ body{
     height: 100vh;
     justify-content: center;
     background-color: hsl(217, 54%, 11%);
+    padding-top: 3rem;
+    margin-bottom: 4rem;
 }
 .container{
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
     height: 100%;
+    width: 300px;
     gap: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     background-color: hsl(216, 50%, 16%);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -48,7 +51,7 @@ body{
 }
 .part5{
     display: flex;
-    gap: 2rem;
+    gap: .7rem;
     align-items: center;
     /* justify-content: space-between; */
 
@@ -64,6 +67,6 @@ body{
     align-items: center;
     gap: .5rem;
 }
-.jules h3{
+.jules h4{
     color: hsl(0, 0%, 100%);
 }
