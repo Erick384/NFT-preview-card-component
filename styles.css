@@ -43,6 +43,9 @@ body{
     display: flex;
     gap: .5rem;
 }
+.svg h3{
+    color: hsl(178, 100%, 50%);
+}
 .part5{
     display: flex;
     gap: 2rem;
